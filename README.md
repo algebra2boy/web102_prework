@@ -27,9 +27,15 @@ The following **optional** features are implemented:
 Here's a walkthrough of implemented features:
 
 
+https://github.com/algebra2boy/web102_prework/assets/103079472/514ee95a-eeb2-48ff-abc7-a5d3f3b25389
+
+
+
 ## Notes
 
 Describe any challenges encountered while building the app.
+
+Using reduce, spread operation were a bit unintutive for me - I had to think about and experiment a few times to make it work. It took me some time to review and refresh my knowledge on flexbox.
 
 ## License
 
