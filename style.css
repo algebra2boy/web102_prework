@@ -2,8 +2,12 @@
 
 body {
     font-family: 'Cabin';
-    background-color: #758190;
+    background-color: #E3F4F4;
 }
+
+html {
+    scroll-behavior: smooth;
+  }
 
 #tentacles {
     width: 50px;
@@ -19,12 +23,24 @@ body {
     margin-top: -10px;
 }
 
+.header-text {
+    text-decoration: none;
+    font-size: xx-large;
+}
+
 .stats-container {
     display: flex;
+    align-items: center;
+    /* background-color: rgb(98, 130, 70); */
+}
+/* Step 3.3 */
+.stats-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
 }
 
 .stats-card {
-    background-color: #a8b0bc;
+    background-color: #FFEEBB;
     border-radius: 7px;
     padding: 1%;
     margin: 1%;
@@ -72,4 +88,9 @@ button {
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+    border-radius: 20px;
+}
+
+button:hover {
+    background-color: #9BCDD2;
 }
