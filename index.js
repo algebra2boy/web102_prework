@@ -44,6 +44,7 @@ function addGamesToPage(games) {
             <h3>Game name: ${game.name}</h3>
             <p>Description: ${game.description}</p>
             <p>Goal: ${game.goal.toLocaleString('en-US')}</p>
+            <p>Pledged: ${game.pledged.toLocaleString('en-US')}</p>
         `;
         gameCardDiv.innerHTML = display;
 
